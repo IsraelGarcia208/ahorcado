@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="practicasjs/ahorcado/ahorcado.css">
+  <title>juego del ahorcado</title>
+</head>
+<body>
+    <div class="principal"></div>
+      <h1 class="titulo">juego del ahorcado</h1>
+      <div class="fila">
+       <h2 class="palabra" id="palabra"></h2>
+        <picture>
+          <img src="ahorcado_6.png" width="420px" id="imagen6">
+          <img src="ahorcado_5.png" width="420px" id="imagen5">
+          <img src="ahorcado_4.png" width="420px" id="imagen4">
+          <img src="ahorcado_2.png" width="420px" id="imagen2">
+        </picture> 
+      </div>
+      <div class="fila" id="turnos">
+        <div class="col">
+          <h3>Intentos restantes: <span id="intentos">3</span></h3>
+        </div>
+        <div class="col">
+          <button onclick="inicio()" id="reset">Elegir otra palabra</button>
+          <button onclick="pista()" id="pista">Dame una pista!</button>
+          <span id="hueco-pista"></span>
+        </div>
+        </div>
+      
+      <div class="fila">
+        <div class="col">
+          <div class="fila" id="abcdario">
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+
+    </div>
+  <script src="ahorcado.js"></script>
+
+      </div>
+</body>
+</html>

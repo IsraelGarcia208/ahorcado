@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+.principal{
+max-width: 800px;
+margin: auto;
+}
+.titulo{
+  margin: 50px auto 80px auto;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.palabra{
+margin: 0 auto 25px auto;
+    text-align: center;
+    color: royalblue;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+picture{
+  position: relative;
+}
+picture img{
+    position: absolute;
+    top: -203px;
+    left: -205px;
+    height: 225px;
+}
+
+#imagen6 #imagen5 #imagen4
+#imagen2{
+  opacity: 30;
+    transition: opacity .3s ease;
+}
+.fila{
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto; 
+}
